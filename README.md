@@ -25,6 +25,30 @@ Este proyecto se centra en el análisis de los siniestros viales en la Ciudad Au
 - Las comunas ubicadas a mayores alturas registran más incidentes, sugiriendo una correlación entre la altitud de la comuna y la frecuencia de siniestros.
 - Los principales campos con valores faltantes son 'Altura Cruce', que podría necesitar atención especial para mejorar la calidad de los datos.
 
+## Análisis del Dashboard de Power BI
+
+### Conclusiones del Dashboard
+
+1. **KPI de Muertes en Moto**:
+   - Se observa una disminución general en el número de muertes en moto desde 2016 hasta 2020, con un aumento en 2021.
+   - Los años con mayores disminuciones porcentuales fueron 2019 (-18.03%) y 2020 (-36.00%), indicando una mejora en la seguridad o cambios en la movilidad.
+
+2. **Tasa de Homicidios**:
+   - La tasa de homicidios muestra una tendencia a la baja, especialmente notable a partir de 2018.
+   - Los valores objetivo y los resultados reales sugieren que las medidas implementadas han tenido un efecto positivo en la reducción de homicidios en siniestros viales.
+
+3. **Distribución de Accidentes por Comuna y Tipo de Calle**:
+   - Las comunas 1, 4 y 9 registran un mayor número de accidentes.
+   - Las avenidas son las vías con mayor número de accidentes, seguidas por las calles generales y la autopista Gral. Paz.
+
+4. **Accidentes por Horario y Sexo**:
+   - La mayoría de los accidentes ocurren durante la mañana, seguidos de la tardenoche.
+   - Los hombres representan la mayor proporción de víctimas de siniestros viales, con un 76% comparado con el 23.15% de mujeres.
+
+5. **Accidentes Participantes**:
+   - Los motociclistas y peatones son los grupos más afectados en los siniestros viales.
+   - La participación de distintos tipos de vehículos y usuarios en los accidentes destaca la necesidad de medidas de seguridad específicas para cada grupo.
+
 ## Tecnologías Utilizadas
 
 - **Python**: Utilizado para scripts de ETL y análisis exploratorio de datos.
@@ -39,3 +63,4 @@ Este proyecto se centra en el análisis de los siniestros viales en la Ciudad Au
 ## Notas Adicionales
 
 Este proyecto aborda un tema crítico de seguridad vial mediante un análisis profundo de los datos y la visualización interactiva, proporcionando insights clave para la toma de decisiones y estrategias de prevención de accidentes.
+
